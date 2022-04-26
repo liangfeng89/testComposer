@@ -1,0 +1,21 @@
+{
+    "name": "abc/wxhelper",
+    "description": "This is a helper for wechat.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "abc",
+            "email": "abc@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lws\\Wxhelper\\": "src/abc/Wxhelper"
+        }
+    }
+}
