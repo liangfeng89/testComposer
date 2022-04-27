@@ -1,11 +1,11 @@
 {
-    "name": "abc/wxhelper",
+    "name": "shortjwz/wxhelper",
     "description": "This is a helper for wechat.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "abc",
+            "name": "shortjwz",
             "email": "abc@163.com"
         }
     ],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lws\\Wxhelper\\": "src/abc/Wxhelper"
+            "Lws\\Wxhelper\\": "src/Lws/Wxhelper"
         }
     }
 }
